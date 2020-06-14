@@ -39,7 +39,6 @@ import string
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 import time
-import sqlite3
 
 app = Flask(__name__)
 
